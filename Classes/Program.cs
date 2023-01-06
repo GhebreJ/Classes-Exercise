@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var currentCar = new Car()
+            {
+                Make = "Ford",
+                Model = "Focus",
+                Year = 2010
+            };
+
+            Console.WriteLine($" My current car is a {currentCar.Year} {currentCar.Make} {currentCar.Model}.");
+
+
         }
     }
 }
